@@ -1,0 +1,46 @@
+h1 {
+    color: #211C84
+}
+
+h3 {
+    color: #4D55CC
+}
+
+p {
+    color: #7A73D1;
+    
+}
+
+address {
+    color: #5f2387;
+}
+
+bdo {
+    color: #4D55CC;
+    background-color: rgba(0, 0, 0, 0.175);
+}
+
+a:link {
+    color: blue;
+    background-color: #211C84;
+    background-color: transparent;
+
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+
+}
