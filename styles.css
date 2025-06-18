@@ -14,12 +14,30 @@ video {
     border: 10px double grey
 }
 
+h1,
+h3,
+p,
+address,
+bdo,
+a,
+table,
+th,
+td {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    text-transform: uppercase;
+
+}
+
 h1 {
     color: #211C84;
+    text-align: center;
 }
 
 h3 {
-    color: #4D55CC
+    color: #4D55CC;
+    text-align: center;
+    font-size: 25px;
 }
 
 p {
@@ -29,6 +47,7 @@ p {
 
 address {
     color: #5f2387;
+    text-align: center;
 }
 
 bdo {
@@ -60,4 +79,20 @@ a:active {
     color: yellow;
     background-color: transparent;
 
+}
+
+table {
+    width: 100%;
+    margin: 20px auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+th,
+td {
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
 }
